@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>林軒億 Johnny Lin｜電子名片</title>
+<meta name="description" content="林軒億｜社區機電保養員｜消防設備・給排水・機電維護｜高雄市鳳山區">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#B5282B">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="林軒億 Johnny Lin｜社區機電保養員">
+<meta property="og:description" content="林軒億｜社區機電保養員｜消防設備・給排水・機電維護｜高雄市鳳山區">
+<meta property="og:url" content="https://0914johnny.github.io/card/">
+<meta property="og:image" content="https://0914johnny.github.io/card/card.png">
+<meta property="og:image:width" content="2400">
+<meta property="og:image:height" content="1260">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23B5282B'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3E林%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #F3F0EB;
+    --surface: #FFFFFF;
+    --surface-2: #F7F5F1;
+    --ink: #1C1E21;
+    --muted: #5C6168;
+    --line: #E5E0D8;
+    --accent: #B5282B;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #F8E6E4;
+    --steel: #2C5A78;
+    --steel-soft: #E4EDF3;
+    --shadow: 0 1px 2px rgba(28, 30, 33, .06), 0 8px 24px rgba(28, 30, 33, .06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101214;
+      --surface: #1A1D21;
+      --surface-2: #22262B;
+      --ink: #ECEDEF;
+      --muted: #A3A9B1;
+      --line: #2C3036;
+      --accent: #C8352F;
+      --accent-ink: #FFFFFF;
+      --accent-soft: #3A2020;
+      --steel: #8CB6D3;
+      --steel-soft: #1D2A34;
+      --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101214; --surface: #1A1D21; --surface-2: #22262B; --ink: #ECEDEF; --muted: #A3A9B1;
+    --line: #2C3036; --accent: #C8352F; --accent-ink: #FFFFFF; --accent-soft: #3A2020;
+    --steel: #8CB6D3; --steel-soft: #1D2A34; --shadow: none;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  svg.i { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+  .wrap {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 16px 16px calc(32px + env(safe-area-inset-bottom));
+    display: grid;
+    gap: 14px;
+  }
+
+  .draft {
+    font-size: 13px;
+    color: var(--muted);
+    border: 1px dashed var(--line);
+    border-radius: 12px;
+    padding: 8px 12px;
+    text-align: center;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+  }
+
+  /* 名片主卡 */
+  .hero { overflow: hidden; }
+  .hero-band {
+    height: 92px;
+    background:
+      repeating-linear-gradient(135deg, rgba(255,255,255,.07) 0 2px, transparent 2px 14px),
+      linear-gradient(120deg, #9E2023, var(--accent) 55%, #C9443A);
+  }
+  .hero-body { padding: 0 20px 20px; }
+  .avatar {
+    width: 88px; height: 88px;
+    margin-top: -44px;
+    border-radius: 50%;
+    border: 4px solid var(--surface);
+    background: #2C5A78;
+    color: #fff;
+    display: grid; place-items: center;
+    font-size: 36px; font-weight: 700;
+    overflow: hidden;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  h1 {
+    margin: 12px 0 0;
+    font-size: 28px; line-height: 1.25; font-weight: 700;
+    letter-spacing: .02em;
+  }
+  h1 .en { display: block; font-size: 15px; font-weight: 500; color: var(--muted); letter-spacing: .03em; margin-top: 2px; }
+  .role { margin: 12px 0 0; font-size: 17px; font-weight: 600; }
+  .tagline { margin: 2px 0 0; color: var(--muted); }
+  .loc { margin: 8px 0 0; display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; }
+  .loc svg.i { width: 16px; height: 16px; }
+
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    min-height: 50px;
+    border-radius: 14px;
+    border: 0;
+    font: inherit; font-weight: 600; font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn-primary { margin-top: 18px; width: 100%; background: var(--accent); color: var(--accent-ink); }
+  .btn-primary:active { filter: brightness(.92); }
+
+  .contacts { display: flex; gap: 8px; margin-top: 10px; }
+  .tile {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    min-height: 64px;
+    padding: 8px 4px;
+    border-radius: 14px;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    text-decoration: none;
+    font-size: 13.5px; font-weight: 600;
+    color: var(--ink);
+    text-align: center;
+    line-height: 1.3;
+  }
+  .tile svg.i { color: var(--accent); }
+  .tile.pending { border-style: dashed; color: var(--muted); font-weight: 500; background: transparent; }
+  .tile.pending svg.i { color: var(--muted); }
+  .tile small { display: block; font-size: 11.5px; font-weight: 500; color: var(--muted); }
+
+  /* 數字 */
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .stat { padding: 14px 8px 12px; text-align: center; }
+  .stat b { display: block; font-size: 22px; line-height: 1.2; color: var(--accent); font-weight: 700; }
+  .stat > span { display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.45; color: var(--muted); }
+
+  /* 段落 */
+  .section { padding: 18px 20px 20px; }
+  h2 {
+    margin: 0 0 12px;
+    font-size: 15px; font-weight: 700;
+    display: flex; align-items: center; gap: 8px;
+  }
+  h2::before { content: ""; width: 4px; height: 16px; border-radius: 2px; background: var(--accent); }
+  .section p { margin: 0; }
+
+  .skills { display: grid; gap: 14px; margin: 0; padding: 0; list-style: none; }
+  .skills li { display: grid; grid-template-columns: 40px 1fr; gap: 12px; align-items: start; }
+  .skill-icon {
+    width: 40px; height: 40px; border-radius: 12px;
+    display: grid; place-items: center;
+    background: var(--steel-soft); color: var(--steel);
+  }
+  .skill-icon.fire { background: var(--accent-soft); color: var(--accent); }
+  .skills b { display: block; font-size: 15.5px; font-weight: 600; line-height: 1.4; }
+  .skills li > div > span { display: block; margin-top: 2px; font-size: 14px; color: var(--muted); }
+
+  .certs { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+  .certs li { display: flex; gap: 10px; align-items: flex-start; }
+  .certs svg.i { color: var(--accent); margin-top: 2px; }
+  .certs b { display: block; font-weight: 600; }
+  .certs li > div > span { display: block; font-size: 13.5px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .chip { font-size: 13px; padding: 5px 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); color: var(--muted); }
+
+  .edu { display: flex; gap: 10px; align-items: flex-start; }
+  .edu svg.i { color: var(--steel); margin-top: 2px; }
+  .edu span { color: var(--muted); font-size: 13.5px; display: block; }
+
+  /* 分享 */
+  .share { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .share .btn {
+    flex-direction: column; gap: 4px;
+    min-height: 72px;
+    font-size: 13.5px;
+    background: var(--surface); color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  .share .btn svg.i { color: var(--accent); width: 22px; height: 22px; }
+
+  footer { text-align: center; font-size: 12.5px; color: var(--muted); padding-top: 4px; }
+
+  /* QR 視窗：永遠白底黑格，手機才掃得到 */
+  dialog {
+    border: 0; padding: 0; background: transparent; max-width: none; max-height: none;
+    width: 100%; height: 100%;
+  }
+  dialog::backdrop { background: rgba(10, 12, 14, .72); }
+  .qr-sheet {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    width: min(340px, calc(100% - 32px));
+    background: #FFFFFF; color: #1C1E21;
+    border-radius: 24px;
+    padding: 24px 24px 18px;
+    text-align: center;
+  }
+  .qr-sheet .qr svg { width: 100%; height: auto; display: block; }
+  .qr-sheet b { display: block; margin-top: 10px; font-size: 18px; }
+  .qr-sheet .url { display: block; font-size: 13px; color: #5C6168; word-break: break-all; }
+  .qr-sheet .btn { margin-top: 14px; width: 100%; background: #F3F0EB; color: #1C1E21; min-height: 46px; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom));
+    transform: translate(-50%, 20px);
+    background: #1C1E21; color: #fff;
+    padding: 10px 16px; border-radius: 999px; font-size: 14px;
+    opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+<main class="wrap">
+  
+
+  <section class="card hero" aria-label="名片">
+    <div class="hero-band"></div>
+    <div class="hero-body">
+      <div class="avatar"><img src="photo.jpg" alt="林軒億"></div>
+      <h1>林軒億<span class="en">Johnny Lin</span></h1>
+      <p class="role">社區機電保養員</p>
+      <p class="tagline">消防設備・給排水・機電維護</p>
+      <p class="loc"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>高雄市鳳山區</p>
+      <a class="btn btn-primary" href="johnny-lin.vcf"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>存入通訊錄</a>
+      <div class="contacts"><a class="tile" href="tel:0908802627"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>打電話</span></a><a class="tile" href="mailto:zx16794325@gmail.com"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><span>寄 Email</span></a><a class="tile" href="https://line.me/ti/p/~0908802627"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.6-4.4A7.9 7.9 0 0 1 3 11.5 8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg><span>加 LINE</span></a><a class="tile" href="https://www.linkedin.com/in/hsuan-yi-lin-8a281020b/"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10.5V16M8 7.5v.01M11.5 16v-5.5M11.5 13a2.5 2.5 0 0 1 5 0v3"/></svg><span>LinkedIn</span></a></div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="重點">
+    <div class="card stat"><b><span data-years>5</span> 年</b><span>消防水電<br>現場經驗</span></div><div class="card stat"><b>3 次</b><span>消防複檢<br>全數通過</span></div><div class="card stat"><b>丙級</b><span>自來水管配管<br>技術士</span></div>
+  </section>
+
+  <section class="card section">
+    <h2>關於我</h2>
+    <p>在高雄的消防水電公司工作，從行政助理做起，一路跟著師傅跑社區大樓現場。做事習慣先把問題弄清楚、把過程記錄下來再處理，現場學到的眉角也會整理成筆記。</p>
+  </section>
+
+  <section class="card section">
+    <h2>我能做的事</h2>
+    <ul class="skills">
+      <li><span class="skill-icon fire"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2.1-.2-4 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.2.4-2.3 1-3.3.3 1.6 1.4 2.8 2.5 2.8z"/></svg></span><div><b>消防設備保養與檢查</b><span>火警探測器、緊急照明、滅火器、標示設備的安裝與保養；受信總機再鳴動測試與燈號異常處理。</span></div></li><li><span class="skill-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9l-3.8 3.8z"/></svg></span><div><b>給排水與機電維修</b><span>更換污水馬達並配明管、修理撒水輔助馬達、安裝消防呼水槽、修繕發電機 ATS 配件與檢查油量。</span></div></li><li><span class="skill-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg></span><div><b>消防檢修申報與複檢</b><span>整理檢修申報書與缺失清單；參與學校與社區大樓的消防複檢，三次都通過。</span></div></li><li><span class="skill-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span><div><b>管委會申辦與廠商協調</b><span>協助申請使用執照與圖說補發、檢修申報補助、公共安全檢查申報；聯絡協力廠商估價，施工前公告住戶。</span></div></li>
+    </ul>
+  </section>
+
+  <section class="card section">
+    <h2>證照與技能</h2>
+    <ul class="certs">
+      <li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>自來水管配管 丙級技術士</b><span>勞動部・2026/10</span></div></li><li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>新媒體行銷管理師認證</b><span>高雄市政府青年局・2022/01</span></div></li><li><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>ChatGPT Lv1 課程結業</b><span>Nuva・2025/04</span></div></li>
+    </ul>
+    <div class="chips"><span class="chip">Word・Excel 文書處理</span><span class="chip">申報書・缺失清單・估價單</span><span class="chip">用 AI 整理工作紀錄</span></div>
+  </section>
+
+  <section class="card section">
+    <h2>學歷</h2>
+    <div class="edu"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><div><b>南華大學</b><span>生物科技學系・2020 畢業</span></div></div>
+  </section>
+
+  <section class="share" aria-label="分享名片">
+    <button class="btn" type="button" id="show-qr"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM17 17h3v3h-3zM20 14h1M14 20h1"/></svg>出示 QR</button>
+    <button class="btn" type="button" id="share"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>分享名片</button>
+    <a class="btn" href="card.png" download="林軒億-電子名片.png"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/></svg>名片圖檔</a>
+  </section>
+
+  <footer>資料更新：2026 年 11 月 5 日</footer>
+</main>
+
+<dialog id="qr-dialog" aria-label="QR code">
+  <div class="qr-sheet">
+    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges" role="img" aria-label="QR code"><rect width="37" height="37" fill="#fff"/><path fill="#111" d="M4 4h7v1h-7zM13 4h3v1h-3zM17 4h1v1h-1zM20 4h4v1h-4zM26 4h7v1h-7zM4 5h1v1h-1zM10 5h1v1h-1zM12 5h4v1h-4zM18 5h4v1h-4zM23 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM4 6h1v1h-1zM6 6h3v1h-3zM10 6h1v1h-1zM13 6h6v1h-6zM20 6h1v1h-1zM22 6h1v1h-1zM26 6h1v1h-1zM28 6h3v1h-3zM32 6h1v1h-1zM4 7h1v1h-1zM6 7h3v1h-3zM10 7h1v1h-1zM13 7h2v1h-2zM16 7h4v1h-4zM22 7h3v1h-3zM26 7h1v1h-1zM28 7h3v1h-3zM32 7h1v1h-1zM4 8h1v1h-1zM6 8h3v1h-3zM10 8h1v1h-1zM12 8h2v1h-2zM16 8h1v1h-1zM18 8h1v1h-1zM23 8h1v1h-1zM26 8h1v1h-1zM28 8h3v1h-3zM32 8h1v1h-1zM4 9h1v1h-1zM10 9h1v1h-1zM13 9h1v1h-1zM17 9h1v1h-1zM21 9h4v1h-4zM26 9h1v1h-1zM32 9h1v1h-1zM4 10h7v1h-7zM12 10h1v1h-1zM14 10h1v1h-1zM16 10h1v1h-1zM18 10h1v1h-1zM20 10h1v1h-1zM22 10h1v1h-1zM24 10h1v1h-1zM26 10h7v1h-7zM13 11h1v1h-1zM16 11h3v1h-3zM20 11h4v1h-4zM4 12h1v1h-1zM6 12h1v1h-1zM8 12h1v1h-1zM10 12h1v1h-1zM14 12h1v1h-1zM16 12h1v1h-1zM18 12h4v1h-4zM23 12h2v1h-2zM28 12h1v1h-1zM31 12h1v1h-1zM4 13h1v1h-1zM12 13h2v1h-2zM15 13h1v1h-1zM18 13h2v1h-2zM21 13h1v1h-1zM24 13h3v1h-3zM29 13h1v1h-1zM32 13h1v1h-1zM4 14h2v1h-2zM7 14h8v1h-8zM16 14h2v1h-2zM21 14h2v1h-2zM28 14h1v1h-1zM30 14h3v1h-3zM8 15h2v1h-2zM11 15h2v1h-2zM14 15h1v1h-1zM16 15h1v1h-1zM20 15h2v1h-2zM24 15h3v1h-3zM31 15h1v1h-1zM8 16h8v1h-8zM19 16h4v1h-4zM24 16h4v1h-4zM29 16h1v1h-1zM31 16h2v1h-2zM4 17h3v1h-3zM8 17h1v1h-1zM11 17h1v1h-1zM15 17h3v1h-3zM24 17h4v1h-4zM29 17h1v1h-1zM32 17h1v1h-1zM4 18h1v1h-1zM8 18h1v1h-1zM10 18h1v1h-1zM12 18h1v1h-1zM14 18h3v1h-3zM18 18h1v1h-1zM20 18h2v1h-2zM24 18h2v1h-2zM27 18h3v1h-3zM31 18h2v1h-2zM4 19h1v1h-1zM8 19h2v1h-2zM11 19h3v1h-3zM15 19h7v1h-7zM24 19h1v1h-1zM26 19h2v1h-2zM29 19h1v1h-1zM31 19h1v1h-1zM4 20h2v1h-2zM7 20h5v1h-5zM14 20h2v1h-2zM18 20h1v1h-1zM20 20h2v1h-2zM23 20h5v1h-5zM29 20h1v1h-1zM31 20h2v1h-2zM6 21h1v1h-1zM8 21h2v1h-2zM12 21h1v1h-1zM16 21h1v1h-1zM18 21h1v1h-1zM20 21h1v1h-1zM25 21h3v1h-3zM29 21h2v1h-2zM32 21h1v1h-1zM4 22h1v1h-1zM6 22h2v1h-2zM10 22h1v1h-1zM14 22h1v1h-1zM16 22h2v1h-2zM20 22h1v1h-1zM22 22h1v1h-1zM27 22h2v1h-2zM31 22h2v1h-2zM5 23h1v1h-1zM7 23h1v1h-1zM14 23h1v1h-1zM16 23h1v1h-1zM21 23h3v1h-3zM25 23h1v1h-1zM27 23h3v1h-3zM31 23h1v1h-1zM4 24h1v1h-1zM10 24h1v1h-1zM13 24h1v1h-1zM16 24h1v1h-1zM21 24h1v1h-1zM23 24h6v1h-6zM12 25h2v1h-2zM16 25h2v1h-2zM20 25h1v1h-1zM24 25h1v1h-1zM28 25h1v1h-1zM30 25h3v1h-3zM4 26h7v1h-7zM18 26h1v1h-1zM21 26h1v1h-1zM23 26h2v1h-2zM26 26h1v1h-1zM28 26h2v1h-2zM31 26h2v1h-2zM4 27h1v1h-1zM10 27h1v1h-1zM13 27h1v1h-1zM15 27h1v1h-1zM17 27h3v1h-3zM21 27h2v1h-2zM24 27h1v1h-1zM28 27h2v1h-2zM31 27h2v1h-2zM4 28h1v1h-1zM6 28h3v1h-3zM10 28h1v1h-1zM12 28h5v1h-5zM18 28h1v1h-1zM20 28h3v1h-3zM24 28h5v1h-5zM32 28h1v1h-1zM4 29h1v1h-1zM6 29h3v1h-3zM10 29h1v1h-1zM13 29h1v1h-1zM15 29h4v1h-4zM20 29h1v1h-1zM23 29h2v1h-2zM28 29h1v1h-1zM30 29h3v1h-3zM4 30h1v1h-1zM6 30h3v1h-3zM10 30h1v1h-1zM12 30h2v1h-2zM17 30h2v1h-2zM21 30h1v1h-1zM23 30h1v1h-1zM28 30h2v1h-2zM32 30h1v1h-1zM4 31h1v1h-1zM10 31h1v1h-1zM13 31h1v1h-1zM16 31h1v1h-1zM21 31h4v1h-4zM26 31h2v1h-2zM29 31h1v1h-1zM31 31h1v1h-1zM4 32h7v1h-7zM12 32h2v1h-2zM16 32h1v1h-1zM20 32h2v1h-2zM23 32h2v1h-2zM28 32h2v1h-2zM31 32h2v1h-2z"/></svg></div>
+    <b>林軒億 Johnny Lin</b>
+    <span class="url">0914johnny.github.io/card</span>
+    <button class="btn" type="button" id="close-qr">關閉</button>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  // 年資自動計算，不用每年手動改
+  var start = "2021-11".split("-");
+  var now = new Date();
+  var years = now.getFullYear() - Number(start[0]) - ((now.getMonth() + 1) < Number(start[1]) ? 1 : 0);
+  document.querySelectorAll("[data-years]").forEach(function (el) { if (years > 0) el.textContent = years; });
+
+  var dialog = document.getElementById("qr-dialog");
+  document.getElementById("show-qr").addEventListener("click", function () { dialog.showModal(); });
+  document.getElementById("close-qr").addEventListener("click", function () { dialog.close(); });
+  dialog.addEventListener("click", function (e) { if (e.target === dialog) dialog.close(); });
+
+  var toast = document.getElementById("toast");
+  function say(msg) {
+    toast.textContent = msg;
+    toast.classList.add("show");
+    setTimeout(function () { toast.classList.remove("show"); }, 2200);
+  }
+
+  var url = "https://0914johnny.github.io/card/";
+  document.getElementById("share").addEventListener("click", function () {
+    var data = { title: "林軒億 Johnny Lin｜電子名片", text: "林軒億｜社區機電保養員", url: url };
+    if (navigator.share) {
+      navigator.share(data).catch(function () {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(function () { say("已複製名片連結"); }, function () { say(url); });
+    } else {
+      say(url);
+    }
+  });
+})();
+</script>
+</body>
+</html>
